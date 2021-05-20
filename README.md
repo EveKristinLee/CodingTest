@@ -32,6 +32,8 @@
 
 - BFS
 
+  > 2178 미로 탐색
+
 - Greedy
 
 - Dynamic Programming
