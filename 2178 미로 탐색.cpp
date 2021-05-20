@@ -6,8 +6,8 @@ using namespace std;
 char map[101][101];
 int path[101][101] = { 0, };
 
-int N; //¼¼·Î ÇÑ±Û
-int M; //°¡·Î
+int N; //ì„¸ë¡œ
+int M; //ê°€ë¡œ
 
 int dx[4] = { 0, 0, 1, -1 };
 int dy[4] = { 1, -1, 0, 0 };
