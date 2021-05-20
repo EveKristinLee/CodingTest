@@ -6,7 +6,7 @@ using namespace std;
 char map[101][101];
 int path[101][101] = { 0, };
 
-int N; //세로
+int N; //세로 한글
 int M; //가로
 
 int dx[4] = { 0, 0, 1, -1 };
