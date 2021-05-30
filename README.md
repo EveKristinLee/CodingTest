@@ -52,6 +52,8 @@
 
 - Greedy
 
+  > 2839 설탕 배달
+
 - Dynamic Programming
 
 - 완전탐색
