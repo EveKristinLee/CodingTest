@@ -11,6 +11,8 @@
 - 2019 KAKAO BLIND RECRUITMENT
 
   > 실패율
+  >
+  > 오픈채팅방
   
 - 2018 KAKAO BLIND RECRUITMENT
 
