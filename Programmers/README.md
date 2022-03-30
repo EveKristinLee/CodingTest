@@ -13,6 +13,8 @@
   > 실패율
   >
   > 오픈채팅방
+  >
+  > 후보키
   
 - 2018 KAKAO BLIND RECRUITMENT
 
