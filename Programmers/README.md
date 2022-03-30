@@ -8,6 +8,10 @@
 
 알고리즘의 종류는 바뀔 수 있으며 그때그때 수정할 예정입니다
 
+- 2019 KAKAO BLIND RECRUITMENT
+
+  > 실패율
+  
 - 2018 KAKAO BLIND RECRUITMENT
 
   > 뉴스 클러스터링
