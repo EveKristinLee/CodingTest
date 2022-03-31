@@ -8,6 +8,10 @@
 
 알고리즘의 종류는 바뀔 수 있으며 그때그때 수정할 예정입니다
 
+- 2020 KAKAO BLIND RECRUITMENT
+
+  > 문자열 압축
+  
 - 2019 KAKAO BLIND RECRUITMENT
 
   > 실패율
