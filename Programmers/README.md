@@ -23,6 +23,8 @@
   > 오픈채팅방
   >
   > 후보키
+  >
+  > 길 찾기 게임
   
 - 2018 KAKAO BLIND RECRUITMENT
 
