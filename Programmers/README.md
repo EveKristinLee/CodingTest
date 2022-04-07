@@ -114,6 +114,10 @@
   >
   > 구명보트
   
+- 그래프
+
+  > 가장 먼 노드
+  
 - Dynamic Programming
 
   > N으로 표현
