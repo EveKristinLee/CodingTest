@@ -11,6 +11,8 @@
 - 2021 KAKAO BLIND RECRUITMENT
 
   > 메뉴 리뉴얼
+  >
+  > 순위 검색
   
 - 2020 KAKAO BLIND RECRUITMENT
 
