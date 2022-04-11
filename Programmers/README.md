@@ -62,6 +62,10 @@
   >
   > 순위 검색
   
+- 2022 KAKAO BLIND RECRUITMENT
+
+  > 신고 결과 받기
+  
 - DFS/BFS
 
   > 단어 변환
