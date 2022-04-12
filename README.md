@@ -8,4 +8,3 @@
 
 - BackJoon Online Judge
 - Programmers
-- 커밋!!
