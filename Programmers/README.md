@@ -19,6 +19,8 @@
 - 2020 카카오 인턴십
 
   > 수식 최대화
+  >
+  > 보석 쇼핑
   
 - 2018 KAKAO BLIND RECRUITMENT
 
