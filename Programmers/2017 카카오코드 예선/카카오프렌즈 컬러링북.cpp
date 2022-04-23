@@ -28,7 +28,6 @@ void dfs(int x, int y, int now, vector<vector<int>> picture) {
 			dfs(nx, ny, picture[x][y], picture);
 		}
 	}
-	
 }
 
 vector<int> solution(int m, int n, vector<vector<int>> picture) {
@@ -53,7 +52,6 @@ vector<int> solution(int m, int n, vector<vector<int>> picture) {
 			}
 		}
 	}
-
 	vector<int> answer(2);
 	answer[0] = number_of_area;
 	answer[1] = max_size_of_one_area;
