@@ -1,4 +1,4 @@
-package com.company;
+package solving.solve_0930;
 
 import java.util.LinkedList;
 import java.util.Queue;
