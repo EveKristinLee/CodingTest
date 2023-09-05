@@ -8,14 +8,13 @@ import java.util.Stack;
 
 public class BOJ_3015 {
     public static class Pair {
-        int num;
+        int num; //height
         int cnt; //같은 숫자 개수
 
         public Pair(int num, int cnt) {
             this.num = num;
             this.cnt = cnt;
         }
-
     }
     static int N;
     static long res;
@@ -32,7 +31,7 @@ public class BOJ_3015 {
             while(!st.isEmpty() && st.peek().num <= now) {
                 Pair top = st.pop();
                 res += top.cnt;
-                if(top.num == now) {
+                if(top.num == now) { //같은 애들 개수 갱신
                     p.cnt += top.cnt;
                 }
             }
