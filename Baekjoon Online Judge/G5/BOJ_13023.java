@@ -34,24 +34,26 @@ public class BOJ_13023 {
 
         isTrue = false;
         for(int i=0; i<N; i++) {
-            if(!isTrue) {
-                visit = new boolean[N];
-                getRel(i, 0);
+            if(isTrue) {
+                break;
             }
+            visit = new boolean[N];
+            getRel(i, 0);
         }
-        if(isTrue) {
-            System.out.println(1);
-        }else{
-            System.out.println(0);
-        }
+//        if(isTrue) {
+//            System.out.println(1);
+//        }else{
+//            System.out.println(0);
+//        }
+        System.out.println(isTrue?1:0);
     }
 
     private static void getRel(int idx, int depth) {
-        if(depth == 5) {
-            isTrue = true;
+        if(isTrue) {
             return;
         }
-        if(isTrue) {
+        if(depth == 5) {
+            isTrue = true;
             return;
         }
 
