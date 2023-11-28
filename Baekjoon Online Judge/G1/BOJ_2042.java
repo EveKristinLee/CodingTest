@@ -1,5 +1,5 @@
 package solving.solve_1005;
-//BOJ G1 구간 합 구하기 - 누적합
+//BOJ G1 구간 합 구하기
 
 import java.io.BufferedReader;
 import java.io.IOException;
