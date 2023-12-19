@@ -2,6 +2,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
+//최대시간 : 금+은의 최대 양 * 왕복 운반시간
+// => (10^9 + 10^9) * (10^5 * 2) = 약 400조..
 public class 금과_은_운반하기 {
     private static class City {
         int gold;
