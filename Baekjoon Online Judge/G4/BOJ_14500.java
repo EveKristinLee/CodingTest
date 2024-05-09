@@ -16,7 +16,7 @@ public class BOJ_14500 {
     static int[] dx = {-1, 1, 0, 0};
     static int[] dy = {0, 0, -1, 1}; //상, 하, 좌, 우
     static int[][][] five = {
-            {{-1, 0}, {1, 0}, {0, 1}},  //ㅏ
+            {{-1, 0}, {1, 0}, {0, 1}},  //ㅓ
             {{0, -1}, {0, 1}, {1, 0}},  //ㅜ
             {{0, -1}, {-1, 0}, {1, 0}}, //ㅏ
             {{0, -1}, {-1, 0}, {0, 1}}  //ㅗ
@@ -76,21 +76,14 @@ public class BOJ_14500 {
     private static void chkFive(int x, int y) {
         for(int i=0; i<4; i++) {
             int sum = map[x][y];
-            boolean flag = true;
             for(int j=0; j<3; j++) {
                 int nx = x + five[i][j][0];
                 int ny = y + five[i][j][1];
                 if(isInside(nx, ny)) {
                     sum += map[nx][ny];
                 }
-                else {
-                    flag = false;
-                    break;
-                }
             }
-            if(flag) {
-                res = Math.max(sum, res);
-            }
+            res = Math.max(sum, res);
         }
     }
 }
