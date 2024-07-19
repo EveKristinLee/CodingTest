@@ -1,4 +1,4 @@
-package jungol.bk;
+package solving;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
  * 종료시간이 짧은 회의들을 많이 배정한다.
  * ==> 종료 시간을 기준으로 오름 차순 정렬
  */
-public class Main_Bk_1370_회의실배정 {
+public class 회의실배정_1370{
 	
 	public static class Room implements Comparable<Room> {
 		int rnum;
