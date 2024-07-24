@@ -44,7 +44,7 @@ public class BOJ_23284 {
 
             arr[cnt] = i;
             visit[i] = true;
-            if(i >= next) {
+            if(i >= next) { //새로운 수를 받은건가?
                 //새로운 수라면 next에 +1
                 makeArr(cnt+1, i+1);
             }
