@@ -12,5 +12,6 @@
 - CodeTree
 - SW Expert Academy
 - JUNGOL
+- Softeer
 
   
