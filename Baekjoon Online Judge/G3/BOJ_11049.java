@@ -29,7 +29,8 @@ public class BOJ_11049 {
             for(int i=0; i+k<N; i++) { //구간 시작점
                 dp[i][i+k] = INF;
                 for(int j=i; j<i+k; j++) { //중간지점
-                    dp[i][i+k] = Math.min(dp[i][i+k], dp[i][j]+dp[j+1][i+k]+(num[i][0] * num[j][1] * num[i+k][1]));
+                    int tmp = dp[i][j]+dp[j+1][i+k]+(num[i][0] * num[j][1] * num[i+k][1]);
+                    dp[i][i+k] = Math.min(dp[i][i+k], tmp);
                 }
             }
         }
